@@ -1,276 +1,90 @@
 # vision.com. 
 TECHSMART INTERNATIONAL
-Proposal for Services
-For Independent Contractors
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Vision.com by howeecross</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/howeecross/vision.com">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Vision.com</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/howeecross/vision.com/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/howeecross/vision.com/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/defunkt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/defunkt">@defunkt</a>), PJ Hyett (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/pjhyett/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/pjhyett">@pjhyett</a>), and Tom Preston-Werner (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/mojombo/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mojombo">@mojombo</a>) founded GitHub.</p>
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/howeecross">howeecross</a> can be found on <a href="https://github.com/howeecross/vision.com">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
 
 
 
-[The proposal for services is at the heart of an independent contractor’s sales tool kit. It combines key company information, your unique selling proposition, and your knowledge of a client’s needs and wants into a single document that can also serve as a basis for contract negotiations. 
-Use this sample proposal as an outline for developing your own.
-To delete any shaded tips (like this one), just click the tip text and then press the spacebar.
-The sample content throughout this proposal includes placeholder content for you to replace with your own. All placeholder text is surrounded by angle brackets (<>).]
 
-Overview
 
-[Use the overview to provide a brief summary of the reason for the proposal, and how you can best support the client’s needs. You can expand on this summary throughout the rest of the proposal.]
 
-TECHSMART INTERNATIONAL is pleased to submit this proposal for services to support <Client’s Company> in achieving its goals for improving customer satisfaction by <providing training and post-sales support for its new order entry and fulfillment system. We have partnered with dozens of small businesses throughout the Northeast—businesses committed to improving the customer experience through convenience, accuracy of orders, and timely delivery.>
-The Objective
-
-[Include a purpose statement that covers the problem and the key theme around your solution. Restate the client’s needs as determined by reading their RFP or your previous interview process.]
-
-<Need #1: improve response time for customer questions >
-<Need #2: improve upon weaknesses in upsell/cross-sell volumes>
-<Need #3: rapid training for staff on new system>
-The Opportunity
-
-[Include major points and identify the opportunity. Restate the client’s project goals you identified previously (such as via RFP, interview, etc.).]
-
-<Goal #1: Train all CSRs on new system within 6 weeks of go-live date>
-<Goal #2: Integrate sales training with functional training on new system>
-<Goal #3: Monitor sales volume, return rates, and key satisfaction metrics for 6 weeks following training>
-The Solution
-
-[Include recommendations that lead to your proposed solution. Summarize what you’re proposing to do and how you’re going to meet the goals. You’ll be able to expand on the details within the ‘Our Proposal’ section.]
-
-<Recommendation #1: Recommendation # 1 statement>
-<Recommendation #2: Recommendation # 2 statement>
-<Recommendation #3: Recommendation # 3 statement>
-Our Proposal
-
-[Provide background information, including a brief background on your company and your understanding of the client’s needs and specific issues to be addressed. You may also choose to include the results of any related research, project history, and additional factors that impact the client’s needs, such as socio-economic trends or impending regulations.
-Show your understanding of the benefits the client can expect. For example, describe the risks--what might be lost--if appropriate action is not taken and compare this to the benefits they can achieve with a positive course of action. If applicable, identify potential areas of concern for the client and how you can address them. Such items may be fundamental issues that appear trivial, but are often overlooked by competing proposals.
-Describe how your capabilities and proposed solution align with the client’s goals for the project, including how your qualifications can uniquely address the current opportunity.]
-
-<Client’s Company> has a well-deserved reputation for quality customer service. However, faced with changes in distribution systems, economic impacts to transportation and logistics, and limitations that prevent taking full advantage of improvements in technology, <Client’s Company> faces the possibility of decreasing sales revenues due customer perceptions of slow delivery and services.
-We have developed solutions to help businesses stay ahead of customer satisfaction trends and propose that <Client’s Company> implement a logistics solution focused on JIT order management and automation of many manual steps in your delivery process. Our solution easily integrates with a wide range of off-the-shelf CRM solutions and can enable <Client’s Company> to fully realize the benefits of improved productivity throughout the entire sales cycle. Most importantly, we provide the training and support for this new solution that ensures your staff can ramp up quickly and realize concrete improvements in sales closure, customer satisfaction, and sales metrics.
-Rationale
-
-[Describe your reasons for developing the project as you have proposed it. You may need to justify why you have chosen your unique approach. Consider including the following points in your rationale.]
-
-Research
-Market opportunities
-Alignment with mission
-Current resources/technology
-Execution Strategy
-Our execution strategy incorporates proven methodologies, extremely qualified personnel, and a highly responsive approach to managing deliverables. Following is a description of our project methods, including how the project will be developed, a proposed timeline of events, and reasons for why we suggest developing the project as described.
-
-[Summarize your strategy based on your research into the client’s needs, your experience in providing similar services to other clients, etc.]
-
-Technical/Project Approach
-
-[Describe the details of how the project will be managed from start to finish. This will include your specific methodologies for completing deliverables, project management tools and techniques, communications with the client, methods to evaluate and mitigate risk, and how the project will be evaluated.]
-
-Resources
-
-[Describe the resources you have in place or plan to acquire, such as qualified contractors, facilities, and technology.]
-
-Project Deliverables
-Following is a complete list of all project deliverables:
-Deliverable
-Description
-<Deliverable #1>
-<Brief description>
-
-
-
-
-
-
-
-
-Timeline for Execution
-
-[Summarize the timeline of project-related events from start to finish.]
-
-Key project dates are outlined below. Dates are best-guess estimates and are subject to change until a contract is executed.
-
-[In the table that follows, include all important dates related to the project, broken down by date and duration. The descriptions shown are for illustration purposes only: replace them with meaningful descriptions related to your project. Items can include such things as payment and project milestones, installation schedules, meetings, or reviews.]
-
-Description
-Start Date
-End Date
-Duration
-<Project Start>
-
-
-
-
-
-
-<Milestone 1>
-
-
-
-
-
-
-<Milestone 2>
-
-
-
-
-
-
-<Phase 1 Complete>
-
-
-
-
-
-
-<Milestone 3>
-
-
-
-
-
-
-<Milestone 4>
-
-
-
-
-
-
-<Phase 2 Complete>
-
-
-
-
-
-
-<Milestone 5>
-
-
-
-
-
-
-<Milestone 6>
-
-
-
-
-
-
-<Project End>
-
-
-
-
-
-
-Supplied Material
-The following materials are to be supplied by <Client’s Company> for this project. For TECHSMART INTERNATIONAL  to meet project milestones, this material must be supplied on schedule. The due dates included in the following table represent our best guess based on current proposed project dates:
-Materials to be supplied by <Client’s Company>
-Due Date*
-
-
-
-
-
-
-
-
-
-
-
-
-*We cannot be responsible for cost overruns caused by client’s failure to deliver materials by agreed-upon due dates.
-Expected Results
-
-[Describe the results expected from the project and why your approach will achieve those results.]
-
-We expect our proposed solution to <Client’s Company>’s requirements to provide the following results:
-Financial Benefits
-<Result #1: Brief description of desired result>
-<Result #2: Brief description of desired result>
-<Result #3: Brief description of desired result>
-Technical Benefits
-<Result #1: Brief description of desired result>
-<Result #2: Brief description of desired result>
-<Result #3: Brief description of desired result>
-Other Benefits
-
-[Use this section to describe less tangible benefits such as increased morale or improved customer satisfaction.]
-
-Pricing
-The following table details the pricing for delivery of the services outlined in this proposal. This pricing is valid for <## days> from the date of this proposal:
-Services Cost <Category #1>
-Price
-<Item Description>
-<$7,000,000.00>
-
-
-
-
-
-
-
-
-Total Services <Category #1> Costs
-<$1000,000.00>
-Services Cost <Category #2>
-
-
-Facilities
-
-
-License Fees
-
-
-Equipment Rental
-
-
-Training
-
-
-Travel
-
-
-Marketing
-
-
-Shipping/Handling
-
-
-Total Services <Category #2> Costs
-
-
-Services Cost <Category #3>
-
-
-
-
-
-
-Total Services <Category #3> Costs
-
-
-Total
-
-
-<Sample> Disclaimer: The prices listed in the preceding table are an estimate for the services discussed. This summary is not a warranty of final price. Estimates are subject to change if project specifications are changed or costs for outsourced services change before a contract is executed.
-Qualifications
-TECHSMART INTERNATIONAL is continually proven to be an industry leader for <high quality/guaranteed> <product/service> in the following ways:
-
-[Describe what sets your company apart from your competition (your unique selling proposition).]
-
-<Unique point #1>
-<Unique point #2>
-<Unique point #3>
-
-[Describe the strengths of your company, focusing on specializations that are most relevant for this project. As appropriate, include additional strengths of your unique selling proposition that provide benefits the customer may not have articulated.
-Identify qualifications that support your ability to address specific client needs for the project.
-Provide information that shows how you can meet the required schedule, such as staffing/subcontractors and percentage of time devoted to the project.]
-
-Conclusion
-
-[Close out the proposal with a statement that demonstrates your concern for the client and their needs, your expertise, and your willingness to help them solve the issues in question. Include any expected next steps and note the ways they can get in touch with you.]
-
-We look forward to working with <Local Government and Private Investors> and supporting your efforts to improve your sales cycle with <integrated CRM, JIT Inventory management, and training and support services>. We are confident that we can meet the challenges ahead, and stand ready to partner with you in delivering an effective IT support solution. 
-If you have questions on this proposal, feel free to contact <Name> at your convenience by email at <incfreshstartretailers@gmail.com> or by phone at <985647-2146>. We will be in touch with you next week to arrange a follow-up conversation on the proposal.
-Thank you for your consideration,
-<Name>
-<Title>
