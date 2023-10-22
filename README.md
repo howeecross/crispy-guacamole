@@ -82,6 +82,81 @@ TECHSMART INTERNATIONAL
     
   </body>
 </html>
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract PredictionMarket {
+    address public owner;
+    string public marketDescription;
+    uint256 public outcomePrice;
+    bool public marketResolved;
+    address public winningOutcome;
+    address[] public participants;
+
+    enum MarketOutcome { Yes, No }
+
+    // Mapping to keep track of balances for participants
+    mapping(address => uint256) public balances;
+
+    // Event for recording predictions
+    event Prediction(address indexed participant, MarketOutcome outcome, uint256 amount);
+
+    constructor(string memory description) {
+        owner = msg.sender;
+        marketDescription = description;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only the owner can perform this action");
+        _;
+    }
+
+    function makePrediction(MarketOutcome outcome) public payable {
+        require(!marketResolved, "Market is already resolved");
+        require(outcomePrice > 0, "Outcome price must be set first");
+        require(msg.value > 0, "Prediction amount must be greater than 0");
+
+        // Record the prediction
+        emit Prediction(msg.sender, outcome, msg.value);
+
+        // Update the balance of the participant
+        balances[msg.sender] += msg.value;
+        participants.push(msg.sender);
+    }
+
+    function resolveMarket(MarketOutcome _winningOutcome, uint256 _outcomePrice) public onlyOwner {
+        require(!marketResolved, "Market is already resolved");
+
+        marketResolved = true;
+        winningOutcome = msg.sender;
+        outcomePrice = _outcomePrice;
+
+        // Distribute funds to participants based on the outcome
+        for (uint256 i = 0; i < participants.length; i++) {
+            address participant = participants[i];
+            if (_winningOutcome == MarketOutcome.Yes) {
+                // Pay participants who predicted 'Yes' for the winning outcome
+                if (balances[participant] > 0) {
+                    payable(participant).transfer(balances[participant] * outcomePrice);
+                }
+            } else {
+                // Pay participants who predicted 'No' for the winning outcome
+                if (balances[participant] > 0) {
+                    payable(participant).transfer(balances[participant]);
+                }
+            }
+        }
+    }
+
+    function withdraw() public {
+        require(marketResolved, "Market is not resolved yet");
+        require(balances[msg.sender] > 0, "No balance to withdraw");
+
+        uint256 balanceToWithdraw = balances[msg.sender];
+        balances[msg.sender] = 0;
+        payable(msg.sender).transfer(balanceToWithdraw);
+    }
+}
 
 
 
